@@ -13,6 +13,19 @@
 		034614B325FBAC4200CAD931 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 034614B225FBAC4200CAD931 /* Preview Assets.xcassets */; };
 		034614BE25FBAC4300CAD931 /* empathyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034614BD25FBAC4300CAD931 /* empathyAppTests.swift */; };
 		034614C925FBAC4300CAD931 /* empathyAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034614C825FBAC4300CAD931 /* empathyAppUITests.swift */; };
+		034614DA25FBAC5800CAD931 /* interviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034614D925FBAC5800CAD931 /* interviewView.swift */; };
+		034614DF25FBAC8B00CAD931 /* matthewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034614DE25FBAC8B00CAD931 /* matthewView.swift */; };
+		034614E425FBACA300CAD931 /* georgiaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034614E325FBACA300CAD931 /* georgiaView.swift */; };
+		034614E925FBACBC00CAD931 /* marionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034614E825FBACBC00CAD931 /* marionView.swift */; };
+		034614EE25FBACDB00CAD931 /* cardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034614ED25FBACDB00CAD931 /* cardView.swift */; };
+		034614F325FBAD0200CAD931 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034614F225FBAD0200CAD931 /* PlayerView.swift */; };
+		034614F825FBAD2800CAD931 /* PlayerUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034614F725FBAD2800CAD931 /* PlayerUIView.swift */; };
+		034614FD25FBAD4000CAD931 /* AboutUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034614FC25FBAD4000CAD931 /* AboutUs.swift */; };
+		0346150225FBAD6100CAD931 /* MusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0346150125FBAD6100CAD931 /* MusicView.swift */; };
+		0346150A25FBAD8700CAD931 /* Sounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0346150925FBAD8700CAD931 /* Sounds.swift */; };
+		0346151725FBAE6F00CAD931 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0346151625FBAE6F00CAD931 /* CircleImage.swift */; };
+		0346152225FBB0F600CAD931 /* dickAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0346152125FBB0F600CAD931 /* dickAudio.mp3 */; };
+		0346152725FBB11000CAD931 /* marionAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0346152625FBB11000CAD931 /* marionAudio.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +58,19 @@
 		034614C425FBAC4300CAD931 /* empathyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = empathyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		034614C825FBAC4300CAD931 /* empathyAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = empathyAppUITests.swift; sourceTree = "<group>"; };
 		034614CA25FBAC4300CAD931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		034614D925FBAC5800CAD931 /* interviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = interviewView.swift; sourceTree = "<group>"; };
+		034614DE25FBAC8B00CAD931 /* matthewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = matthewView.swift; sourceTree = "<group>"; };
+		034614E325FBACA300CAD931 /* georgiaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = georgiaView.swift; sourceTree = "<group>"; };
+		034614E825FBACBC00CAD931 /* marionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = marionView.swift; sourceTree = "<group>"; };
+		034614ED25FBACDB00CAD931 /* cardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardView.swift; sourceTree = "<group>"; };
+		034614F225FBAD0200CAD931 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		034614F725FBAD2800CAD931 /* PlayerUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerUIView.swift; sourceTree = "<group>"; };
+		034614FC25FBAD4000CAD931 /* AboutUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUs.swift; sourceTree = "<group>"; };
+		0346150125FBAD6100CAD931 /* MusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicView.swift; sourceTree = "<group>"; };
+		0346150925FBAD8700CAD931 /* Sounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sounds.swift; sourceTree = "<group>"; };
+		0346151625FBAE6F00CAD931 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		0346152125FBB0F600CAD931 /* dickAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickAudio.mp3; sourceTree = "<group>"; };
+		0346152625FBB11000CAD931 /* marionAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = marionAudio.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +121,21 @@
 		034614AA25FBAC3E00CAD931 /* empathyApp */ = {
 			isa = PBXGroup;
 			children = (
+				0346151625FBAE6F00CAD931 /* CircleImage.swift */,
+				0346150925FBAD8700CAD931 /* Sounds.swift */,
+				0346150125FBAD6100CAD931 /* MusicView.swift */,
+				034614FC25FBAD4000CAD931 /* AboutUs.swift */,
+				034614F725FBAD2800CAD931 /* PlayerUIView.swift */,
+				034614F225FBAD0200CAD931 /* PlayerView.swift */,
 				034614AB25FBAC3E00CAD931 /* empathyAppApp.swift */,
 				034614AD25FBAC3E00CAD931 /* ContentView.swift */,
+				0346152625FBB11000CAD931 /* marionAudio.mp3 */,
+				034614DE25FBAC8B00CAD931 /* matthewView.swift */,
+				034614E325FBACA300CAD931 /* georgiaView.swift */,
+				034614E825FBACBC00CAD931 /* marionView.swift */,
+				034614D925FBAC5800CAD931 /* interviewView.swift */,
+				034614ED25FBACDB00CAD931 /* cardView.swift */,
+				0346152125FBB0F600CAD931 /* dickAudio.mp3 */,
 				034614AF25FBAC4200CAD931 /* Assets.xcassets */,
 				034614B425FBAC4200CAD931 /* Info.plist */,
 				034614B125FBAC4200CAD931 /* Preview Content */,
@@ -234,7 +273,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				034614B325FBAC4200CAD931 /* Preview Assets.xcassets in Resources */,
+				0346152725FBB11000CAD931 /* marionAudio.mp3 in Resources */,
 				034614B025FBAC4200CAD931 /* Assets.xcassets in Resources */,
+				0346152225FBB0F600CAD931 /* dickAudio.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +300,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				034614E925FBACBC00CAD931 /* marionView.swift in Sources */,
+				034614EE25FBACDB00CAD931 /* cardView.swift in Sources */,
+				034614DA25FBAC5800CAD931 /* interviewView.swift in Sources */,
+				0346151725FBAE6F00CAD931 /* CircleImage.swift in Sources */,
+				0346150A25FBAD8700CAD931 /* Sounds.swift in Sources */,
+				0346150225FBAD6100CAD931 /* MusicView.swift in Sources */,
+				034614F325FBAD0200CAD931 /* PlayerView.swift in Sources */,
+				034614E425FBACA300CAD931 /* georgiaView.swift in Sources */,
+				034614DF25FBAC8B00CAD931 /* matthewView.swift in Sources */,
 				034614AE25FBAC3E00CAD931 /* ContentView.swift in Sources */,
+				034614FD25FBAD4000CAD931 /* AboutUs.swift in Sources */,
 				034614AC25FBAC3E00CAD931 /* empathyAppApp.swift in Sources */,
+				034614F825FBAD2800CAD931 /* PlayerUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
