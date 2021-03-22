@@ -6,6 +6,14 @@
 //
 //This view represents the interview page with Lara Langston
 import SwiftUI
+//
+//  georgiaView.swift
+//  test
+//
+//  Created by Molly Brigham on 10/28/20.
+//
+//This view represents the interview page with Lara Langston
+import SwiftUI
 import AVKit
 import AVFoundation
 import WebKit
@@ -17,7 +25,8 @@ struct georgiaView: View {
     var body: some View {
         VStack{
             //video player with specificities for appearance
-            PlayerView()
+            SUIVideoPlayer()
+                
                 .cornerRadius(15)
                 .frame(width: nil, height: maxHeight, alignment: .center)
                 .shadow(color: Color.black.opacity(0.7), radius: 30, x: 0, y: 2)
