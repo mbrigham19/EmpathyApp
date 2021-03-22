@@ -9,17 +9,18 @@ import SwiftUI
 import AVKit
 
 struct SUIVideoPlayer: View {
+    //mp4 file being accessed by avplayer
     private let player = AVPlayer(url: URL(string: "file:///Users/mollybrigham/Downloads/langston.mp4")!)
-    //VideoPlayerContainerView(url: URL(string: "file:///Users/mollybrigham/Downloads/langston.mp4")!)
     
     var body: some View {
         VideoPlayer(player: player)
+            //start to play when entering georgiaView
             .onAppear() {
-                // Start the player going, otherwise controls don't appear
+                
                 player.play()
             }
             .onDisappear() {
-                // Stop the player when the view disappears
+                //stop playing when exiting georgiaView
                 player.pause()
             }
     }
