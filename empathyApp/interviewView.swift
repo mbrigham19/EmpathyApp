@@ -30,7 +30,7 @@ struct interviewView: View {
                 .padding([.horizontal])
                 //contains navigations to each interview, using cardview class that specifies the components of each card as image, date, title, and author
                 ScrollView {
-                                        NavigationLink(destination: matthewView()) {
+                                        NavigationLink(destination: musicView()) {
                         cardView(image: "invention", category: "April 30, 2020", heading: "Matthew Dick on being a Prototyping Instructor", author:"by Jaewon Drake")
                     }
                     NavigationLink(destination: georgiaView()) {
