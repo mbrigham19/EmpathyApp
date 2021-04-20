@@ -67,6 +67,20 @@ struct ContentView: View {
                                         .stroke(Color(red: 0 / 255, green: 48 / 255, blue: 87 / 255), lineWidth: 5)
                                 )
                         }
+                        NavigationLink(destination: VRMenuView()) {
+                            Text("VR")
+                                .fontWeight(.bold)
+                                .font(.custom("Georgia", size: 25))
+                                .padding()
+                                .background(Color(red: 0 / 255, green: 48 / 255, blue: 87 / 255))
+                                .cornerRadius(40)
+                                .foregroundColor(.white)
+                                .padding(10)
+                                .overlay(
+                                    RoundedRectangle(cornerRadius: 40)
+                                        .stroke(Color(red: 0 / 255, green: 48 / 255, blue: 87 / 255), lineWidth: 5)
+                                )
+                        }
                     }
                 }
         
